@@ -23,7 +23,7 @@ namespace Phalcon\Scanners;
 
 use Phalcon\Utils\FsUtils;
 use Phalcon\Config\Exception;
-use Phalcon\Mvc\User\Component;
+use Phalcon\Component;
 use Phalcon\Config as PhConfig;
 use Phalcon\Config\Adapter\Ini as IniConfig;
 use Phalcon\Config\Adapter\Json as JsonConfig;

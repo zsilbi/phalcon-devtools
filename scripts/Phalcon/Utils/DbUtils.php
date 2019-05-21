@@ -22,7 +22,7 @@
 
 namespace Phalcon\Utils;
 
-use Phalcon\Mvc\User\Component;
+use Phalcon\Component;
 
 /**
  * \Phalcon\Utils\DbUtils

@@ -21,7 +21,7 @@
 
 namespace Phalcon\Elements;
 
-use Phalcon\Mvc\User\Component;
+use Phalcon\Component;
 
 /**
  * \Phalcon\Elements\Element

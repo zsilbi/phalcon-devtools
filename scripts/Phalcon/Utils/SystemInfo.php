@@ -22,7 +22,7 @@
 namespace Phalcon\Utils;
 
 use Phalcon\Devtools\Version;
-use Phalcon\Mvc\User\Component;
+use Phalcon\Component;
 use Phalcon\Version as PhVersion;
 
 /**

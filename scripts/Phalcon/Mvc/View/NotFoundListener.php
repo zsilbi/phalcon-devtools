@@ -23,7 +23,7 @@ namespace Phalcon\Mvc\View;
 
 use Phalcon\Events\Event;
 use Phalcon\Mvc\ViewInterface;
-use Phalcon\Mvc\User\Component;
+use Phalcon\Component;
 
 /**
  * \Phalcon\Mvc\View\NotFoundListener

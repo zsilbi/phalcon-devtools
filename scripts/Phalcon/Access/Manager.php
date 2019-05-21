@@ -23,7 +23,7 @@ namespace Phalcon\Access;
 
 use Phalcon\Events\Event;
 use Phalcon\Mvc\Dispatcher;
-use Phalcon\Mvc\User\Component;
+use Phalcon\Component;
 
 /**
  * \Phalcon\Access\Manager

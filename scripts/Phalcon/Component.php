@@ -19,28 +19,12 @@
   +------------------------------------------------------------------------+
 */
 
-namespace Phalcon\Resources;
-
-use Phalcon\Component;
+namespace Phalcon;
 
 /**
- * \Phalcon\Resources\AssetsResource
- *
- * @property \Phalcon\Utils\FsUtils $fs
- *
- * @package Phalcon\Resources
+ * \Phalcon\Component
  */
-class AssetsResource extends Component
+class Component extends \Phalcon\Di\Injectable
 {
-    /**
-     * Returns assets resource path.
-     *
-     * @param string $path
-     *
-     * @return string
-     */
-    public function path($path)
-    {
-        return PTOOLSPATH . DS . 'resources' . DS . $this->fs->normalize($path);
-    }
+
 }
